@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.highlight {
+  margin-bottom: 1rem;
+}
+
+.statistics {
+  margin-top: 1rem;
+}
+
+.styledimg {
+  background-image: url(C:\Users\pavitDesktop\assignment web development\genshin_1);
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 464px;
+  }
+
+  footer {
+  background-color: #33333328;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
